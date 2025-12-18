@@ -29,7 +29,6 @@ repos:
     rev: v8.30.0
     hooks:
       - id: gitleaks
-    exclude: uv.lock
   - repo: https://github.com/jorisroovers/gitlint
     rev: v0.19.1
     hooks:
